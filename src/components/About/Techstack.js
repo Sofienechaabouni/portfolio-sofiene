@@ -9,12 +9,7 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-  SiTensorflow,
-} from "react-icons/si";
+import { SiPytorch, SiFirebase, SiTensorflow } from "react-icons/si";
 
 function Techstack() {
   return (
