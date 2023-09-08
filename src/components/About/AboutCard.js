@@ -14,7 +14,6 @@ function AboutCard() {
             <a
               href="http://www.insat.rnu.tn/Fr/accueil_46_34 "
               style={{ "text-decoration": "none" }}
-              target={"_blank"}
             >
               <span className="purple">INSAT .</span>
             </a>
