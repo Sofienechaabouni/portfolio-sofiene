@@ -8,6 +8,9 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {props.imgPath2 && (
+        <Card.Img variant="top" src={props.imgPath2} alt="card-img" />
+      )}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <br></br>

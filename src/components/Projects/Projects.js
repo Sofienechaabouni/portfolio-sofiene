@@ -3,10 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import turbidity from "../../Assets/flask server.jpg";
-import hannini from "../../Assets/pandsell.png";
-import yumurta from "../../Assets/Y-logo.png";
-
+import hannini from "../../Assets/HanniniApp.jpg";
+import yumurta from "../../Assets/Yumurta.jpg";
+import image1 from "../../Assets/image2.png";
+import bd from "../../Assets/BD.jpg";
 function Projects() {
+  const str = `This project contains 4 parts:              
+  Batch processing using Hadoop HDFS and Map Reduce,Batch processing and streaming using Spark,Streaming using Spark and Kafka,NoSQL Databases with HBase.`;
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -21,10 +24,21 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={turbidity}
+              imgPath2={image1}
               isBlog={false}
-              title="Design of an IoT device and mobile application for water quality assessment based on deep learning"
+              title="Design of an IoT device and mobile application for water quality assessment based on Machine learning"
               description="I used React Native to develop a mobile app that collects data from an Arduino Uno and a turbidity sensor. The collected data was then used to train a model based on that dataset"
               ghLink="https://github.com/Sofienechaabouni/turbidity-app"
+              demoLink="https://drive.google.com/drive/folders/1Hjd10n7gmv5Bus4ecSYLOXp07hcBTjOO?usp=drive_link"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bd}
+              isBlog={false}
+              title="Hadoop, MapReduce, spark, kafka, HBase Projects"
+              description={str}
+              ghLink="https://github.com/Sofienechaabouni/Hadoop_MapReduce_spark_kafka_HBase"
               demoLink=""
             />
           </Col>
@@ -43,7 +57,7 @@ function Projects() {
               imgPath={yumurta}
               isBlog={false}
               title="Yumurta mobile app "
-              description="A cash register application for stores ."
+              description="A cash register application for stores but it can't be shared beacause it's an internal project during a summer internship"
               demoLink=""
             />
           </Col>

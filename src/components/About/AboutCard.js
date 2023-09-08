@@ -10,7 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sofiene Chaabouni </span>
             from <span className="purple"> Tunis,Tunisia.</span>
-            <br />I am a student in Networks and telecommunications at{" "}
+            <br />I am a Software Engineering student specialized in Networks
+            and telecommunications at{" "}
             <a
               href="http://www.insat.rnu.tn/Fr/accueil_46_34 "
               style={{ "text-decoration": "none" }}
