@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import turbidity from "../../Assets/flask server.jpg";
 import hannini from "../../Assets/HanniniApp.jpg";
-import yumurta from "../../Assets/Yumurta.jpg";
+import yumurta from "../../Assets/yumurta.jpg";
 import image1 from "../../Assets/image2.png";
 import bd from "../../Assets/BD.jpg";
 function Projects() {
