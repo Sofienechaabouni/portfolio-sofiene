@@ -9,7 +9,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sofiene Chaabouni </span>
             from <span className="purple"> Tunis,Tunisia.</span>
-            <br />I am a Software Engineering student specialized in Networks
+            <br />I am a Software Engineering engineer specialized in Networks
             and telecommunications at{" "}
             <a
               href="http://www.insat.rnu.tn/Fr/accueil_46_34 "
@@ -20,8 +20,8 @@ function AboutCard() {
             <br />
             <br />I am currently learning Machine Learning and Deep Learning
             courses online and in the university to enhance my knowledge and
-            skills in this field in addition to my experience in software
-            development in react native and react .{" "}
+            skills in this field in addition to my current master program in 
+            management of technological innovation.{" "}
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>

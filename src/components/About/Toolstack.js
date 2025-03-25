@@ -23,9 +23,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons sof" title="Power BI">
         <SiPowerbi />
       </Col>
-      <Col xs={4} md={2} className="tech-icons sof" title="Heroku">
-        <SiHeroku />
-      </Col>
+  
     </Row>
   );
 }

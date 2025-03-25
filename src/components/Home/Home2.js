@@ -16,14 +16,14 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I am a student in Software Engineering ,I am a highly motivated
-              individual with a passion for machine learning , deep learning
-              ,data management and analytics and Front-end developing,
+              individual with a passion for data engineering, machine learning,
+              deep learning and analytics and Front-end developing,
               constantly seeking to expand my knowledge and skills in these
               fields
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Python ,Java and Javascript. </b>
+                <b className="purple"> C++, Python ,SQL and Javascript. </b>
               </i>
               <br />
               <br />
